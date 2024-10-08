@@ -140,6 +140,35 @@
             object-fit: contain;
         }
 
+        #certifications {
+            background-image: url('https://images.unsplash.com/photo-1556761175-4b46a572b786');
+        }
+
+        .certifications-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+        }
+
+        .certification-item {
+            background-color: rgba(1, 0, 0, 0.8);
+            border: 3px solid #fefcfc;
+            border-radius: 8px;
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .certification-item:hover {
+            transform: scale(1.1);
+        }
+
+        .certification-item img {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+        }
+        
         #contact {
             background-image: url('https://wallpaperaccess.com/full/3124518.jpg');
             margin-left: 50px;
@@ -168,6 +197,7 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#education">Education</a></li>
                     <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -247,7 +277,43 @@ A button to clear all fields for new conversions.<br>
             <a href="https://github.com/Papun03/Temperature-Converter/tree/main" target="_blank">View Project</a>
         </div>
     </section>
-
+    <section id="certifications">
+        <div class="section-content">
+            <h2><b><u>Certifications</u></b></h2>
+            <div class="certifications-grid">
+                <div class="certification-item">
+                    <img src="python_basic certificate (1)_page-0001.jpg" alt="Certification 1">
+                    <h3>HackerRank-python</h3>
+                    <a href="python_basic certificate (1)_page-0001.jpg">View Certificate</a>
+                </div>
+                <div class="certification-item">
+                    <img src="Certificate - SmartInternz_page-0001.jpg" alt="Certification 2">
+                    <h3>APSCHE- SmartInternz</h3>
+                    <a href="Certificate - SmartInternz_page-0001.jpg">View Certificate</a>
+                </div>
+                <div class="certification-item">
+                    <img src="EduSkills- Altreyx Data Analytics_page-0001.jpg" alt="Certification 3">
+                    <h3>EduSkills- Altreyx</h3>
+                    <a href="EduSkills- Altreyx Data Analytics_page-0001.jpg">View Certificate</a>
+                </div>
+                <div class="certification-item">
+                    <img src="EduSkills- AWS_page-0001.jpg" alt="Certification 4">
+                    <h3>EduSkills- AWS</h3>
+                    <a href="EduSkills- AWS_page-0001.jpg">View Certificate</a>
+                </div>
+                <div class="certification-item">
+                    <img src="Fortinet-EduSkills_page-0001.jpg" alt="Certification 5">
+                    <h3>EduSkills- Fortinet</h3>
+                    <a href="Fortinet-EduSkills_page-0001.jpg">View Certificate</a>
+                </div>
+                <div class="certification-item">
+                    <img src="APSSDC PD 4103-4835-437_page-0001.jpg" alt="Certification 6">
+                    <h3>APSSDC- Edunet</h3>
+                    <a href="APSSDC PD 4103-4835-437_page-0001.jpg">View Certificate</a>
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="skills">
         <h2 class="section-title"><b><u>Skills</u></b></h2>
         <div class="container">
